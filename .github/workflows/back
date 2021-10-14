@@ -1,0 +1,27 @@
+on:
+push:
+branches:
+- master
+tags:
+- v*
+
+on:
+push:
+tags:
+- v*
+branches-ignore:
+- "*"
+- "!master"
+
+on:
+  push:
+    tags:
+      - v*
+    branches-ignore:
+      - "!master"
+
+on:
+push:
+branches:
+- master
+-"refs/tags/v\*"
