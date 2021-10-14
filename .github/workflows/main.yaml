@@ -12,6 +12,6 @@ jobs:
     - uses: actions/checkout@v2
     - uses: Klemensas/action-autotag@stable
       with:
-        GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+        GITHUB_TOKEN: "${{ secrets.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 }}"
         tag_prefix: "v"
         changelog_structure: "**{{messageHeadline}}** {{author}}\n"
